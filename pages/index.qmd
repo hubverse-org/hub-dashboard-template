@@ -1,0 +1,25 @@
+---
+title: "Introduction"
+---
+
+
+::: {style='display:flex; align-items: center; justify-content: center'}
+
+[View The Latest Forecasts](forecast.html){.btn .btn-primary role="button"}
+
+:::
+
+
+This Dashboard is build with Quarto. 
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Authors can use $\LaTeX$ to write equations and even put in callouts:
+
+:::{.callout-note}
+
+Look at this note!
+
+:::
+
+
+

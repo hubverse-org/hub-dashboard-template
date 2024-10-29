@@ -1,0 +1,8 @@
+pages/_site/*
+pages/.quarto/*
+pages/resources/*
+pages/_quarto.yml
+pages/forecasts.qmd
+pages/forecast.qmd
+pages/evaluations.qmd
+pages/evaluation.qmd
