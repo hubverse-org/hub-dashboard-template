@@ -1,7 +1,5 @@
 ---
-hub: cdcepi/FluSight-forecast-hub/
+hub: "cdcepi/FluSight-forecast-hub/"
 title: "Example Hub Dashboard Website"
-pages:
-  - icon: people-fill
-    href: about.md
+pages: "about.md"
 
