@@ -21,7 +21,8 @@ Once these steps are performed, the App will automatically generate the website 
 
 ### PredTimeChart Forecasts Visualization
 
-Edit the [`predtimechart-config.yml`](predtimechart-config.yml) file
+Edit the [`predtimechart-config.yml`](predtimechart-config.yml) file to match your hub schema.
+TODO: update this with useful information.
 
 ### Dashboard Website
 
