@@ -5,4 +5,4 @@ reference_date_col_name: 'reference_date'
 target_date_col_name: 'target_end_date'
 horizon_col_name: 'horizon'
 initial_checked_models: ['UMass-flusion', 'UMass-trends_ensemble']
-disclaimer: "Historical data is presented. The Challenge Period runs between November 20, 2024 and May 31, 2025."
+disclaimer: "This is a disclaimer. It presents important information for your stakeholders."
