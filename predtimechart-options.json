@@ -11,215 +11,215 @@
         "location": [
             {
                 "value": "US",
-                "text": "US"
+                "text": "United States"
             },
             {
                 "value": "01",
-                "text": "01"
+                "text": "Alabama"
             },
             {
                 "value": "02",
-                "text": "02"
+                "text": "Alaska"
             },
             {
                 "value": "04",
-                "text": "04"
+                "text": "Arizona"
             },
             {
                 "value": "05",
-                "text": "05"
+                "text": "Arkansas"
             },
             {
                 "value": "06",
-                "text": "06"
+                "text": "California"
             },
             {
                 "value": "08",
-                "text": "08"
+                "text": "Colorado"
             },
             {
                 "value": "09",
-                "text": "09"
+                "text": "Connecticut"
             },
             {
                 "value": "10",
-                "text": "10"
+                "text": "Delaware"
             },
             {
                 "value": "11",
-                "text": "11"
+                "text": "District of Columbia"
             },
             {
                 "value": "12",
-                "text": "12"
+                "text": "Florida"
             },
             {
                 "value": "13",
-                "text": "13"
+                "text": "Georgia"
             },
             {
                 "value": "15",
-                "text": "15"
+                "text": "Hawaii"
             },
             {
                 "value": "16",
-                "text": "16"
+                "text": "Idaho"
             },
             {
                 "value": "17",
-                "text": "17"
+                "text": "Illinois"
             },
             {
                 "value": "18",
-                "text": "18"
+                "text": "Indiana"
             },
             {
                 "value": "19",
-                "text": "19"
+                "text": "Iowa"
             },
             {
                 "value": "20",
-                "text": "20"
+                "text": "Kansas"
             },
             {
                 "value": "21",
-                "text": "21"
+                "text": "Kentucky"
             },
             {
                 "value": "22",
-                "text": "22"
+                "text": "Louisiana"
             },
             {
                 "value": "23",
-                "text": "23"
+                "text": "Maine"
             },
             {
                 "value": "24",
-                "text": "24"
+                "text": "Maryland"
             },
             {
                 "value": "25",
-                "text": "25"
+                "text": "Massachusetts"
             },
             {
                 "value": "26",
-                "text": "26"
+                "text": "Michigan"
             },
             {
                 "value": "27",
-                "text": "27"
+                "text": "Minnesota"
             },
             {
                 "value": "28",
-                "text": "28"
+                "text": "Mississippi"
             },
             {
                 "value": "29",
-                "text": "29"
+                "text": "Missouri"
             },
             {
                 "value": "30",
-                "text": "30"
+                "text": "Montana"
             },
             {
                 "value": "31",
-                "text": "31"
+                "text": "Nebraska"
             },
             {
                 "value": "32",
-                "text": "32"
+                "text": "Nevada"
             },
             {
                 "value": "33",
-                "text": "33"
+                "text": "New Hampshire"
             },
             {
                 "value": "34",
-                "text": "34"
+                "text": "New Jersey"
             },
             {
                 "value": "35",
-                "text": "35"
+                "text": "New Mexico"
             },
             {
                 "value": "36",
-                "text": "36"
+                "text": "New York"
             },
             {
                 "value": "37",
-                "text": "37"
+                "text": "North Carolina"
             },
             {
                 "value": "38",
-                "text": "38"
+                "text": "North Dakota"
             },
             {
                 "value": "39",
-                "text": "39"
+                "text": "Ohio"
             },
             {
                 "value": "40",
-                "text": "40"
+                "text": "Oklahoma"
             },
             {
                 "value": "41",
-                "text": "41"
+                "text": "Oregon"
             },
             {
                 "value": "42",
-                "text": "42"
+                "text": "Pennsylvania"
             },
             {
                 "value": "44",
-                "text": "44"
+                "text": "Rhode Island"
             },
             {
                 "value": "45",
-                "text": "45"
+                "text": "South Carolina"
             },
             {
                 "value": "46",
-                "text": "46"
+                "text": "South Dakota"
             },
             {
                 "value": "47",
-                "text": "47"
+                "text": "Tennessee"
             },
             {
                 "value": "48",
-                "text": "48"
+                "text": "Texas"
             },
             {
                 "value": "49",
-                "text": "49"
+                "text": "Utah"
             },
             {
                 "value": "50",
-                "text": "50"
+                "text": "Vermont"
             },
             {
                 "value": "51",
-                "text": "51"
+                "text": "Virginia"
             },
             {
                 "value": "53",
-                "text": "53"
+                "text": "Washington"
             },
             {
                 "value": "54",
-                "text": "54"
+                "text": "West Virginia"
             },
             {
                 "value": "55",
-                "text": "55"
+                "text": "Wisconsin"
             },
             {
                 "value": "56",
-                "text": "56"
+                "text": "Wyoming"
             },
             {
                 "value": "72",
-                "text": "72"
+                "text": "Puerto Rico"
             }
         ]
     },
@@ -266,11 +266,12 @@
             "2024-04-27",
             "2024-05-04",
             "2024-11-23",
-            "2024-11-30"
+            "2024-11-30",
+            "2024-12-07"
         ]
     },
-    "initial_as_of": "2024-11-30",
-    "current_date": "2024-11-30",
+    "initial_as_of": "2024-12-07",
+    "current_date": "2024-12-07",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
@@ -302,6 +303,7 @@
         "SigSci-TSENS",
         "Stevens-GBR",
         "Stevens-ILIForecast",
+        "UGA_CEID-Walk",
         "UGA_flucast-Copycat",
         "UGA_flucast-INFLAenza",
         "UGuelph-CompositeCurve",
