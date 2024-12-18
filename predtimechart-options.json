@@ -268,11 +268,12 @@
             "2024-11-23",
             "2024-11-30",
             "2024-12-07",
-            "2024-12-14"
+            "2024-12-14",
+            "2024-12-21"
         ]
     },
-    "initial_as_of": "2024-12-14",
-    "current_date": "2024-12-14",
+    "initial_as_of": "2024-12-21",
+    "current_date": "2024-12-21",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
