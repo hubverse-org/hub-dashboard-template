@@ -274,11 +274,12 @@
             "2025-01-04",
             "2025-01-11",
             "2025-01-18",
-            "2025-01-25"
+            "2025-01-25",
+            "2025-02-01"
         ]
     },
-    "initial_as_of": "2025-01-25",
-    "current_date": "2025-01-25",
+    "initial_as_of": "2025-02-01",
+    "current_date": "2025-02-01",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
