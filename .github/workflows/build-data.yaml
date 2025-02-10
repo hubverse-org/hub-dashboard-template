@@ -1,0 +1,43 @@
+name: "Rebuild Data"
+on:
+  schedule:
+    - cron: "33 17 * * 4" # every Thursday at 5:45PM UTC == 12:33PM EST
+  workflow_dispatch:
+    inputs:
+      regenerate:
+        description: "(Forecast) Regenerate previously-recorded model output data?"
+        type: boolean
+        required: false
+        default: false
+      data:
+        description: "(Forecast) Which forecast page data should be built?"
+        type: choice
+        options:
+          - 'target'
+          - 'forecast'
+          - 'both'
+        required: false
+        default: 'both'
+      publish:
+        description: "Push Data to branch (uncheck for a dry run)"
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  site:
+    uses: hubverse-org/hub-dashboard-control-room/.github/workflows/generate-data.yaml@main
+    with:
+      owner: '${{ github.event.repository.owner.login }}'
+      name: '${{ github.event.repository.name }}'
+      slug: '${{ github.event.repository.owner.login }}'
+      email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
+      regenerate: ${{ inputs.regenerate || false }}
+      build: ${{ inputs.build || 'both' }}
+      publish: ${{ inputs.publish || github.event_name != 'workflow_dispatch'}}
+    secrets:
+      id: 'none'
+      key: ${{ secrets.GITHUB_TOKEN }}

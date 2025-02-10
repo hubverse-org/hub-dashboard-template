@@ -1,0 +1,26 @@
+name: "Rebuild Site"
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Push Data to branch (uncheck for a dry run)"
+        type: boolean
+        required: false
+        default: true
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  site:
+    uses: hubverse-org/hub-dashboard-control-room/.github/workflows/generate-site.yaml@main
+    with:
+      owner: '${{ github.event.repository.owner.login }}'
+      name: '${{ github.event.repository.name }}'
+      slug: '${{ github.event.repository.owner.login }}'
+      email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
+      publish: ${{ inputs.publish || github.event_name != 'workflow_dispatch'}}
+    secrets:
+      id: 'none'
+      key: ${{ secrets.GITHUB_TOKEN }}
