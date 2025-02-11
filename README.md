@@ -11,20 +11,19 @@ the following:
     ii. `title` is the title of your dashboard
     iii. `pages` is a list of pages you want included in the top bar after the home page (index.html) and forecasts (forecast.html).
 3. Update `predtimechart-config.yml` according to the instructions at [hub_predtimechart](https://github.com/hubverse-org/hub-dashboard-predtimechart/tree/main?tab=readme-ov-file#required-hub-configuration).
-4. Add [The hubDashboard App](https://github.com/apps/hubDashboard) to your dashboard repository.
+4. (Optional) Add `predevals-config.yml` if you have oracle output that you can use to generate predevals data. (See [reichlab/flusight-dashboard](https://github.com/reichlab/flusight-dashboard/blob/main/predevals-config.yml) for an example).
 
-Once these steps are performed, the App will automatically generate the website on the `gh-pages` branch on your behalf. Once this branch is created, you can activate your website to deploy from this branch.
+Once these steps are performed, the workflows will automatically generate the website on the `gh-pages` branch on your behalf. Once this branch is created, you can activate your website to deploy from this branch.
 
 > [!NOTE]
 >
-> At the moment, the first time you enable this app, you will need to manually
-> switch on your github pages by going to `<repo>/settings/pages` and selecting 
-> `gh-pages` as the branch to deploy from:
+> At the moment, the first time you create your repository, you will need to
+> manually switch on your github pages by going to `<repo>/settings/pages` and
+> selecting `gh-pages` as the branch to deploy from:
 >
 > ![screenshot of the "Build and Deployment" section of the pages setting. There are two sub-headings that say "source" and "branch". The Source heading has a dropdown that is selected to "Deploy from a branch". The Branch heading shows a dropdown with `gh-pages`, `main`, `ptc/data`, and `None` as options for the "branch" dropdown. A red arrow is pointing to the `gh-pages` option, which is highlighted.](pages.png)
 
 ## Configuration
-
 
 ### PredTimeChart Forecasts Visualization
 
