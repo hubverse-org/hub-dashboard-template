@@ -2,6 +2,8 @@ name: "Rebuild Data"
 on:
   schedule:
     - cron: "33 17 * * 4" # every Thursday at 5:45PM UTC == 12:33PM EST
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       regenerate:
@@ -37,7 +39,7 @@ jobs:
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
       regenerate: ${{ inputs.regenerate || false }}
       build: ${{ inputs.build || 'both' }}
-      publish: ${{ inputs.publish || github.event_name != 'workflow_dispatch'}}
+      publish: ${{ inputs.publish || github.event_name == 'schedule' }}
     secrets:
       id: 'none'
       key: ${{ secrets.GITHUB_TOKEN }}
