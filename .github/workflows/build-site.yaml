@@ -23,7 +23,7 @@ jobs:
       name: '${{ github.event.repository.name }}'
       slug: '${{ github.event.repository.owner.login }}'
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
-      publish: ${{ inputs.publish || github.event_name == "push" }}
+      publish: ${{ inputs.publish || github.event_name == 'push' }}
     secrets:
       id: 'none'
       key: ${{ secrets.GITHUB_TOKEN }}
