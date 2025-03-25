@@ -290,6 +290,7 @@
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
+        "CFA_Pyrenew-Pyrenew_HE_Flu",
         "CMU-TimeSeries",
         "CU-ensemble",
         "GT-FluFNP",
