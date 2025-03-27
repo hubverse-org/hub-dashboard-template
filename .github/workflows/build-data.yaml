@@ -39,7 +39,7 @@ jobs:
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
       regenerate: ${{ inputs.regenerate || false }}
       build: ${{ inputs.build || 'both' }}
-      publish: ${{ inputs.publish || github.event_name == 'schedule' }}
+      publish: ${{ inputs.publish || github.event_name == 'schedule' || github.event_name == 'push' }}
     secrets:
       id: 'none'
       key: ${{ secrets.GITHUB_TOKEN }}
