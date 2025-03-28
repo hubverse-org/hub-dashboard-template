@@ -4,6 +4,11 @@ on:
     - cron: "33 17 * * 4" # every Thursday at 5:45PM UTC == 12:33PM EST
   pull_request:
     branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - predtimechart-config.yml
+      - predevals-config.yml
   workflow_dispatch:
     inputs:
       regenerate:
@@ -39,7 +44,7 @@ jobs:
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
       regenerate: ${{ inputs.regenerate || false }}
       build: ${{ inputs.build || 'both' }}
-      publish: ${{ inputs.publish || github.event_name == 'schedule' }}
+      publish: ${{ inputs.publish || github.event_name == 'schedule' || github.event_name == 'push' }}
     secrets:
       id: 'none'
       key: ${{ secrets.GITHUB_TOKEN }}
