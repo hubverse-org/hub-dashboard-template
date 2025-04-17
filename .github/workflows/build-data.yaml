@@ -43,7 +43,7 @@ jobs:
       slug: '${{ github.event.repository.owner.login }}'
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
       regenerate: ${{ inputs.regenerate || false }}
-      build: ${{ inputs.build || 'both' }}
+      build: ${{ inputs.data || 'both' }}
       publish: ${{ inputs.publish || github.event_name == 'schedule' || github.event_name == 'push' }}
     secrets:
       id: 'none'
