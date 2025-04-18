@@ -16,7 +16,7 @@ GitHub remains the primary interface for operating the hub and collecting foreca
 The sections below provide examples for accessing hub data on the cloud, depending on your goals and preferred tools. The options include:
 
 | Access Method | Description |
-|------------------------------------|------------------------------------|
+|----|----|
 | hubData (R) | Hubverse R client and R code for accessing hub data |
 | Polars (Python) | Python open-source library for data manipulation |
 | AWS command line interface | Download hub data to your machine and use hubData or Polars for local access |
