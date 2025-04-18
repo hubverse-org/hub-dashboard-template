@@ -6,3 +6,6 @@ pages/forecasts.qmd
 pages/forecast.qmd
 pages/evaluations.qmd
 pages/evaluation.qmd
+.Rproj.user
+.Rhistory
+*.Rproj
