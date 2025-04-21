@@ -7,7 +7,7 @@ hub-bucket-name: "[hub-bucket-name]"
 
 <!-- Remove this page if you're not planning to host your hub's data on the Hubverse's AWS infrastructure -->
 
-To ensure greater access to the data created by and submitted to this hub, real-time copies of its model-output, target, and configuration files are hosted on the Hubverse's Amazon Web Services (AWS) infrastructure, in a public S3 bucket: *\[insert S3 bucket name, as specified in admin.json cloud.host.storage_location\]*
+To ensure greater access to the data created by and submitted to this hub, real-time copies of its model-output, target, and configuration files are hosted on the Hubverse's Amazon Web Services (AWS) infrastructure, in a public S3 bucket: `{{< meta hub-bucket-name >}}`
 
 **Note**: For efficient storage, all model-output files in S3 are stored in parquet format, even if the original versions in the GitHub repository are .csv.
 
