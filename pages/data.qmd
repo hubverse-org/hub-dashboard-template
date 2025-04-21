@@ -196,5 +196,5 @@ aws s3 cp s3://{{< meta hub-bucket-name >}}/[modeling-team-name]/UMass-flusion/ 
 -   [Full documentation for `aws s3 ls`](https://docs.aws.amazon.com/cli/latest/reference/s3/ls.html)
 -   [Full documentation for `aws s3 cp`](https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html)
 
-</details>
+:::
 
