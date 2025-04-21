@@ -68,13 +68,10 @@ hub_con %>%
 
 -   [full hubData documentation](https://hubverse-org.github.io/hubData/)
 
-</details>
 
 <!--------------------------------------------------- Polars ------------------------------------------------------->
 
-<details>
-
-<summary>Polars (Python)</summary>
+## Polars (Python)
 
 The Hubverse team is currently developing a Python client (hubDataPy). Until hubDataPy is ready, the [Polars](https://pola.rs/) library is a good option for working with hub data in S3. Similar to pandas, Polars is based on dataframes and series. However, Polars has a more straightforward API and is designed to work with larger-than-memory datasets.
 
