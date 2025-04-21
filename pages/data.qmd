@@ -163,7 +163,11 @@ AWS provides a terminal-based command line interface (CLI) for exploring and dow
 
 When using the AWS CLI, the `--no-sign-request` option is required, since it tells AWS to bypass a credential check (*i.e.*, `--no-sign-request` allows anonymous access to public S3 data).
 
-> \[!NOTE\] Files in the bucket's `raw` directory should not be used for analysis (they're for internal use only).
+:::{.callout-note}
+
+Files in the bucket's `raw` directory should not be used for analysis (they're for internal use only).
+
+:::
 
 List all directories in the hub's S3 bucket:
 
