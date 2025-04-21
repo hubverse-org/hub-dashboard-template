@@ -3,5 +3,5 @@ hub: "cdcepi/FluSight-forecast-hub/"
 title: "Example Hub Dashboard Website"
 pages:
   - "about.md"
-  - "data.md"
+  - "data.qmd"
 
