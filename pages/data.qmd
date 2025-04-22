@@ -23,11 +23,10 @@ The sections below provide examples for accessing hub data on the cloud, dependi
 
 In general, accessing the data directly from S3 (instead of downloading it first) is more convenient. However, if performance is critical (for example, you're building an interactive visualization), or if you need to work offline, we recommend downloading the data first.
 
+:::{#methods .panel-tabset}
 <!-------------------------------------------------- hubData ------------------------------------------------------->
 
-<details>
-
-<summary>hubData (R)</summary>
+## hubData (R)
 
 [hubData](https://hubverse-org.github.io/hubData), the Hubverse R client, can create an interactive session for accessing, filtering, and transforming hub model output data stored in S3.
 
