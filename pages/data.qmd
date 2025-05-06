@@ -1,5 +1,6 @@
 ---
 title: "Accessing Hub Data"
+# replace "[hub-bucket-name]" with the name of your hub's bucket
 hub-bucket-name: "[hub-bucket-name]"
 ---
 

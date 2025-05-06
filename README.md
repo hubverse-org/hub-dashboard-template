@@ -7,13 +7,26 @@ the following:
 
 1. Add markdown content to `pages/`
 2. Update `site-config.yml`
-    i. `hub` is the github slug for your active hub. This example defaults to the CDC FluSight hub
+    i. `hub` is the github slug for your active hub. This example defaults to
+       the CDC FluSight hub
     ii. `title` is the title of your dashboard
-    iii. `pages` is a list of pages you want included in the top bar after the home page (index.html) and forecasts (forecast.html).
-3. Update `predtimechart-config.yml` according to the instructions at [hub_predtimechart](https://github.com/hubverse-org/hub-dashboard-predtimechart/tree/main?tab=readme-ov-file#required-hub-configuration).
-4. (Optional) Add `predevals-config.yml` if you have oracle output that you can use to generate predevals data. (See [reichlab/flusight-dashboard](https://github.com/reichlab/flusight-dashboard/blob/main/predevals-config.yml) for an example).
+    iii. `pages` is a list of pages you want included in the top bar after the
+         home page (index.html) and forecasts (forecast.html).
+3. Update `predtimechart-config.yml` according to the instructions at
+   [hub_predtimechart](https://github.com/hubverse-org/hub-dashboard-predtimechart/tree/main?tab=readme-ov-file#required-hub-configuration).
+4. (Optional) Add `predevals-config.yml` if you have oracle output that you can
+   use to generate predevals data. (See
+   [reichlab/flusight-dashboard](https://github.com/reichlab/flusight-dashboard/blob/main/predevals-config.yml)
+   for an example).
+5. (Optional) If your hub has an S3 bucket associated with it (you can find
+   this in the `hub-config/admin.json` file of your hub), you can add this
+   information to the `hub-bucket-name` key in the YAML header of
+   [pages/data.qmd](pages/data.qmd). This will automatically populate the data
+   template with the yaml header.
 
-Once these steps are performed, the workflows will automatically generate the website on the `gh-pages` branch on your behalf. Once this branch is created, you can activate your website to deploy from this branch.
+Once these steps are performed, the workflows will automatically generate the
+website on the `gh-pages` branch on your behalf. Once this branch is created,
+you can activate your website to deploy from this branch.
 
 > [!NOTE]
 >
@@ -28,7 +41,19 @@ Once these steps are performed, the workflows will automatically generate the we
 ### PredTimeChart Forecasts Visualization
 
 Edit the [`predtimechart-config.yml`](predtimechart-config.yml) file to match your hub schema.
-TODO: update this with useful information.
+You can find instructions to do so [in the PredTimeChart visualization guide](https://docs.hubverse.io/en/latest/user-guide/dashboards.html#dashboard-ptc).
+
+If you do not want a forecasts visualization on your site, you can remove the
+`predtimechart-config.yml` file.
+
+### PredEvals Visualization
+
+Edit the [`predevals-config.yml`](predevals-config.yml) file to match your hub schema.
+You can find instructions to do so [in the PredEvals visualization guide](https://docs.hubverse.io/en/latest/user-guide/dashboards.html#dashboard-predevals).
+
+
+If you do not want an evaluations visualization on your site, you can remove the
+`predevals-config.yml` file.
 
 ### Dashboard Website
 
@@ -50,6 +75,24 @@ Other than the `hub` field all remaining fields have the following mapping equiv
 | `.title`           | `.website.title` |
 | `.pages`           | [`.website.navbar.left`](https://quarto.org/docs/websites/website-navigation.html#top-navigation) |
 | `.html` (optional) | [`.format.html`](https://quarto.org/docs/reference/formats/html.html#format-options) |
+
+#### Pages
+
+In the `pages/` directory, you will see three pages:
+
+1. `index.qmd` this is the home page for the dashboard website. It is required.
+2. `data.qmd` this is an _optional_ template that provides instructions for how
+   to access data for a hub locally or via S3. If you do not have an S3-enabled
+   hub, you can remove this page (and remove it from the `site.yml` file). If
+   you have an S3-enabled hub, add your hub's bucket name to the
+   `hub-bucket-name` key. For example, if your are building a dashboard for the
+   [CDC flusight
+   hub](https://hubverse.io/community/hubs.html#flusight-forecast-hub), then
+   you would use `hub-bucket-name: "cdcepi-flusight-forecast-hub"`
+3. `about.md` this _optional_ page demonstrates that you can add any extra
+   pages to the dashboard site. You can either replace the page with useful
+   information or you can remove it altogether (and remove it from the
+   `site.yml` file).
 
 #### Customization
 
