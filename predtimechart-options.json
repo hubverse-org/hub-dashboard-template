@@ -290,11 +290,12 @@
             "2025-04-12",
             "2025-04-19",
             "2025-04-26",
-            "2025-05-03"
+            "2025-05-03",
+            "2025-05-10"
         ]
     },
-    "initial_as_of": "2025-05-03",
-    "current_date": "2025-05-03",
+    "initial_as_of": "2025-05-10",
+    "current_date": "2025-05-10",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
@@ -304,6 +305,7 @@
         "GT-FluFNP",
         "Gatech-ensemble_point",
         "Gatech-ensemble_prob",
+        "Google_SAI-FluBoostQR",
         "ISU_NiemiLab-GPE",
         "ISU_NiemiLab-NLH",
         "JHUAPL-DMD",
