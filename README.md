@@ -7,22 +7,22 @@ the following:
 
 1. Add markdown content to `pages/`
 2. Update `site-config.yml`
-    i. `hub` is the github slug for your active hub. This example defaults to
-       the CDC FluSight hub
+    i. `hub` is the github repository (`owner/repo`) for your active hub. This example defaults to
+       the CDC FluSight hub (`cdcepi/FluSight-forecast-hub`)
     ii. `title` is the title of your dashboard
-    iii. `pages` is a list of pages you want included in the top bar after the
+    iii. `pages` is a list of additional optional pages you want included in the top bar after the
          home page (index.html) and forecasts (forecast.html).
 3. Update `predtimechart-config.yml` according to the instructions at
    [hub_predtimechart](https://github.com/hubverse-org/hub-dashboard-predtimechart/tree/main?tab=readme-ov-file#required-hub-configuration).
 4. (Optional) Add `predevals-config.yml` if you have oracle output that you can
-   use to generate predevals data. (See
+   use to generate predevals data. (See below for a link to the documentation and
    [reichlab/flusight-dashboard](https://github.com/reichlab/flusight-dashboard/blob/main/predevals-config.yml)
    for an example).
 5. (Optional) If your hub has an S3 bucket associated with it (you can find
-   this in the `hub-config/admin.json` file of your hub), you can add this
+   this in the `cloud.host.name` property of the `hub-config/admin.json` file of your hub), and you are including a `data.qmd` page, you can add this
    information to the `hub-bucket-name` key in the YAML header of
    [pages/data.qmd](pages/data.qmd). This will automatically populate the data
-   template with the yaml header.
+   template with the s3 bucket name in the appropriate locations in the page.
 
 Once these steps are performed, the workflows will automatically generate the
 website on the `gh-pages` branch on your behalf. Once this branch is created,

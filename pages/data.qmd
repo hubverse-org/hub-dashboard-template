@@ -1,6 +1,6 @@
 ---
 title: "Accessing Hub Data"
-# replace "[hub-bucket-name]" with the name of your hub's bucket
+# replace "[hub-bucket-name]" with the name of your hub's bucket which you can find in the `cloud.host.name` property of your hub's `admin.json`.
 hub-bucket-name: "[hub-bucket-name]"
 ---
 
