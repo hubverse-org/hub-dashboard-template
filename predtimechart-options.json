@@ -293,11 +293,12 @@
             "2025-05-03",
             "2025-05-10",
             "2025-05-17",
-            "2025-05-24"
+            "2025-05-24",
+            "2025-05-31"
         ]
     },
-    "initial_as_of": "2025-05-24",
-    "current_date": "2025-05-24",
+    "initial_as_of": "2025-05-31",
+    "current_date": "2025-05-31",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
