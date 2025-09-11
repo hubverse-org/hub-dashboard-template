@@ -4,11 +4,232 @@
             "value": "wk inc flu hosp",
             "text": "incident influenza hospitalizations",
             "plot_text": "incident influenza hospitalizations"
+        },
+        {
+            "value": "wk inc flu prop ed visits",
+            "text": "proportion of weekly incident ED visits due to influenza",
+            "plot_text": "proportion of weekly incident ED visits due to influenza"
         }
     ],
     "initial_target_var": "wk inc flu hosp",
     "task_ids": {
         "wk inc flu hosp": {
+            "location": [
+                {
+                    "value": "US",
+                    "text": "United States"
+                },
+                {
+                    "value": "01",
+                    "text": "Alabama"
+                },
+                {
+                    "value": "02",
+                    "text": "Alaska"
+                },
+                {
+                    "value": "04",
+                    "text": "Arizona"
+                },
+                {
+                    "value": "05",
+                    "text": "Arkansas"
+                },
+                {
+                    "value": "06",
+                    "text": "California"
+                },
+                {
+                    "value": "08",
+                    "text": "Colorado"
+                },
+                {
+                    "value": "09",
+                    "text": "Connecticut"
+                },
+                {
+                    "value": "10",
+                    "text": "Delaware"
+                },
+                {
+                    "value": "11",
+                    "text": "District of Columbia"
+                },
+                {
+                    "value": "12",
+                    "text": "Florida"
+                },
+                {
+                    "value": "13",
+                    "text": "Georgia"
+                },
+                {
+                    "value": "15",
+                    "text": "Hawaii"
+                },
+                {
+                    "value": "16",
+                    "text": "Idaho"
+                },
+                {
+                    "value": "17",
+                    "text": "Illinois"
+                },
+                {
+                    "value": "18",
+                    "text": "Indiana"
+                },
+                {
+                    "value": "19",
+                    "text": "Iowa"
+                },
+                {
+                    "value": "20",
+                    "text": "Kansas"
+                },
+                {
+                    "value": "21",
+                    "text": "Kentucky"
+                },
+                {
+                    "value": "22",
+                    "text": "Louisiana"
+                },
+                {
+                    "value": "23",
+                    "text": "Maine"
+                },
+                {
+                    "value": "24",
+                    "text": "Maryland"
+                },
+                {
+                    "value": "25",
+                    "text": "Massachusetts"
+                },
+                {
+                    "value": "26",
+                    "text": "Michigan"
+                },
+                {
+                    "value": "27",
+                    "text": "Minnesota"
+                },
+                {
+                    "value": "28",
+                    "text": "Mississippi"
+                },
+                {
+                    "value": "29",
+                    "text": "Missouri"
+                },
+                {
+                    "value": "30",
+                    "text": "Montana"
+                },
+                {
+                    "value": "31",
+                    "text": "Nebraska"
+                },
+                {
+                    "value": "32",
+                    "text": "Nevada"
+                },
+                {
+                    "value": "33",
+                    "text": "New Hampshire"
+                },
+                {
+                    "value": "34",
+                    "text": "New Jersey"
+                },
+                {
+                    "value": "35",
+                    "text": "New Mexico"
+                },
+                {
+                    "value": "36",
+                    "text": "New York"
+                },
+                {
+                    "value": "37",
+                    "text": "North Carolina"
+                },
+                {
+                    "value": "38",
+                    "text": "North Dakota"
+                },
+                {
+                    "value": "39",
+                    "text": "Ohio"
+                },
+                {
+                    "value": "40",
+                    "text": "Oklahoma"
+                },
+                {
+                    "value": "41",
+                    "text": "Oregon"
+                },
+                {
+                    "value": "42",
+                    "text": "Pennsylvania"
+                },
+                {
+                    "value": "44",
+                    "text": "Rhode Island"
+                },
+                {
+                    "value": "45",
+                    "text": "South Carolina"
+                },
+                {
+                    "value": "46",
+                    "text": "South Dakota"
+                },
+                {
+                    "value": "47",
+                    "text": "Tennessee"
+                },
+                {
+                    "value": "48",
+                    "text": "Texas"
+                },
+                {
+                    "value": "49",
+                    "text": "Utah"
+                },
+                {
+                    "value": "50",
+                    "text": "Vermont"
+                },
+                {
+                    "value": "51",
+                    "text": "Virginia"
+                },
+                {
+                    "value": "53",
+                    "text": "Washington"
+                },
+                {
+                    "value": "54",
+                    "text": "West Virginia"
+                },
+                {
+                    "value": "55",
+                    "text": "Wisconsin"
+                },
+                {
+                    "value": "56",
+                    "text": "Wyoming"
+                },
+                {
+                    "value": "72",
+                    "text": "Puerto Rico"
+                }
+            ]
+        },
+        "wk inc flu prop ed visits": {
             "location": [
                 {
                     "value": "US",
@@ -295,6 +516,9 @@
             "2025-05-17",
             "2025-05-24",
             "2025-05-31"
+        ],
+        "wk inc flu prop ed visits": [
+            "2023-10-07"
         ]
     },
     "initial_as_of": "2025-05-31",
@@ -356,6 +580,59 @@
         "UMass-flusion",
         "UMass-trends_ensemble"
     ],
+    "model_urls": {
+        "UI_CompEpi-EpiGen": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UI_CompEpi-EpiGen.yml",
+        "NU_UCSD-GLEAM_AI_FLUH": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NU_UCSD-GLEAM_AI_FLUH.yml",
+        "Google_SAI-FluBoostQR": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Google_SAI-FluBoostQR.yml",
+        "UGuelph-CompositeCurve": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGuelph-CompositeCurve.yml",
+        "LUcompUncertLab-chimera": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LUcompUncertLab-chimera.yml",
+        "NEU_ISI-FluBcast": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NEU_ISI-FluBcast.yml",
+        "cfa-flumech": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/cfa-flumech.yml",
+        "MOBS-GLEAM_FLUH": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MOBS-GLEAM_FLUH.yml",
+        "Gatech-ensemble_prob": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Gatech-ensemble_prob.yml",
+        "VTSanghani-PRIME": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/VTSanghani-PRIME.yml",
+        "SigSci-TSENS": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SigSci-TSENS.yml",
+        "Gatech-ensemble_point": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Gatech-ensemble_point.yml",
+        "CFA_Pyrenew-Pyrenew_HE_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CFA_Pyrenew-Pyrenew_HE_Flu.yml",
+        "UMass-trends_ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UMass-trends_ensemble.yml",
+        "ISU_NiemiLab-GPE": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/ISU_NiemiLab-GPE.yml",
+        "MIGHTE-Nsemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MIGHTE-Nsemble.yml",
+        "UMass-flusion": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UMass-flusion.yml",
+        "Stevens-GBR": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Stevens-GBR.yml",
+        "SigSci-BECAM": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SigSci-BECAM.yml",
+        "MDPredict-SIRS": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MDPredict-SIRS.yml",
+        "PSI-PROF_beta": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/PSI-PROF_beta.yml",
+        "MIGHTE-Joint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MIGHTE-Joint.yml",
+        "LosAlamos_NAU-CModel_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LosAlamos_NAU-CModel_Flu.yml",
+        "UGA_flucast-INFLAenza": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_flucast-INFLAenza.yml",
+        "OHT_JHU-nbxd": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/OHT_JHU-nbxd.yml",
+        "UVAFluX-CESGCN": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UVAFluX-CESGCN.yml",
+        "Stevens-ILIForecast": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Stevens-ILIForecast.yml",
+        "UGA_CEID-Walk": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_CEID-Walk.yml",
+        "PSI-PROF": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/PSI-PROF.yml",
+        "JHU_CSSE-CSSE_Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/JHU_CSSE-CSSE_Ensemble.yml",
+        "ISU_NiemiLab-NLH": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/ISU_NiemiLab-NLH.yml",
+        "UM-DeepOutbreak": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UM-DeepOutbreak.yml",
+        "UGuelphensemble-GRYPHON": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGuelphensemble-GRYPHON.yml",
+        "CADPH-FluCAT_Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CADPH-FluCAT_Ensemble.yml",
+        "UNC_IDD-InfluPaint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UNC_IDD-InfluPaint.yml",
+        "cfarenewal-cfaepimlight": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/cfarenewal-cfaepimlight.yml",
+        "UGA_flucast-Copycat": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_flucast-Copycat.yml",
+        "CU-ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CU-ensemble.yml",
+        "NEU_ISI-AdaptiveEnsemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NEU_ISI-AdaptiveEnsemble.yml",
+        "SGroup-RandomForest": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SGroup-RandomForest.yml",
+        "SigSci-CREG": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SigSci-CREG.yml",
+        "CMU-TimeSeries": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CMU-TimeSeries.yml",
+        "VTSanghani-Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/VTSanghani-Ensemble.yml",
+        "GT-FluFNP": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/GT-FluFNP.yml",
+        "fjordhest-ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/fjordhest-ensemble.yml",
+        "UVAFluX-Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UVAFluX-Ensemble.yml",
+        "CEPH-Rtrend_fluH": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CEPH-Rtrend_fluH.yaml",
+        "NIH-Flu_ARIMA": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NIH-Flu_ARIMA.yaml",
+        "Metaculus-cp": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Metaculus-cp.yaml",
+        "JHUAPL-Morris": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/JHUAPL-Morris.yaml",
+        "JHUAPL-DMD": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/JHUAPL-DMD.yaml"
+    },
     "disclaimer": "This is a disclaimer. It presents important information for your stakeholders.",
     "initial_xaxis_range": null
 }
