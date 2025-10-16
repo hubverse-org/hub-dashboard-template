@@ -515,14 +515,15 @@
             "2025-05-10",
             "2025-05-17",
             "2025-05-24",
-            "2025-05-31"
+            "2025-05-31",
+            "2025-10-18"
         ],
         "wk inc flu prop ed visits": [
-            "2023-10-07"
+            "2025-10-18"
         ]
     },
-    "initial_as_of": "2025-05-31",
-    "current_date": "2025-05-31",
+    "initial_as_of": "2025-10-18",
+    "current_date": "2025-10-18",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
@@ -539,6 +540,8 @@
         "JHUAPL-Morris",
         "JHU_CSSE-CSSE_Ensemble",
         "LUcompUncertLab-chimera",
+        "LosAlamos-DoSiDo",
+        "LosAlamos-ThinMint",
         "LosAlamos_NAU-CModel_Flu",
         "MDPredict-SIRS",
         "MIGHTE-Joint",
@@ -592,6 +595,7 @@
         "NEU_ISI-AdaptiveEnsemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NEU_ISI-AdaptiveEnsemble.yml",
         "CFA_Pyrenew-Pyrenew_HE_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CFA_Pyrenew-Pyrenew_HE_Flu.yml",
         "UNC_IDD-InfluPaint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UNC_IDD-InfluPaint.yml",
+        "LosAlamos-ThinMint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LosAlamos-ThinMint.yml",
         "UMass-flusion": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UMass-flusion.yml",
         "GT-FluFNP": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/GT-FluFNP.yml",
         "PSI-PROF": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/PSI-PROF.yml",
@@ -600,6 +604,7 @@
         "cfarenewal-cfaepimlight": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/cfarenewal-cfaepimlight.yml",
         "SGroup-RandomForest": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SGroup-RandomForest.yml",
         "cfa-flumech": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/cfa-flumech.yml",
+        "LosAlamos-DoSiDo": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LosAlamos-DoSiDo.yml",
         "UGA_flucast-Copycat": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_flucast-Copycat.yml",
         "CADPH-FluCAT_Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CADPH-FluCAT_Ensemble.yml",
         "VTSanghani-Ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/VTSanghani-Ensemble.yml",
