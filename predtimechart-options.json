@@ -516,14 +516,16 @@
             "2025-05-17",
             "2025-05-24",
             "2025-05-31",
-            "2025-11-22"
+            "2025-11-22",
+            "2025-11-29"
         ],
         "wk inc flu prop ed visits": [
-            "2025-11-22"
+            "2025-11-22",
+            "2025-11-29"
         ]
     },
-    "initial_as_of": "2025-11-22",
-    "current_date": "2025-11-22",
+    "initial_as_of": "2025-11-29",
+    "current_date": "2025-11-29",
     "models": [
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
@@ -549,6 +551,7 @@
         "MDPredict-SIRS",
         "MIGHTE-Joint",
         "MIGHTE-Nsemble",
+        "MOBS-EpyStrain_Flu",
         "MOBS-GLEAM_FLUH",
         "MOBS-GLEAM_RL_FLUH",
         "Metaculus-cp",
@@ -571,6 +574,7 @@
         "Stevens-GBR",
         "Stevens-ILIForecast",
         "UGA_CEID-Walk",
+        "UGA_CEID-auto_AVG_LB",
         "UGA_flucast-INFLAenza",
         "UGuelph-CompositeCurve",
         "UGuelphensemble-GRYPHON",
@@ -607,6 +611,7 @@
         "CFA_Pyrenew-Pyrenew_HE_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CFA_Pyrenew-Pyrenew_HE_Flu.yml",
         "UNC_IDD-InfluPaint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UNC_IDD-InfluPaint.yml",
         "LosAlamos-ThinMint": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LosAlamos-ThinMint.yml",
+        "MOBS-EpyStrain_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MOBS-EpyStrain_Flu.yml",
         "UMass-flusion": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UMass-flusion.yml",
         "GT-FluFNP": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/GT-FluFNP.yml",
         "PSI-PROF": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/PSI-PROF.yml",
@@ -648,6 +653,7 @@
         "ISU_NiemiLab-GPE": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/ISU_NiemiLab-GPE.yml",
         "MIGHTE-Nsemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MIGHTE-Nsemble.yml",
         "Stevens-ILIForecast": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Stevens-ILIForecast.yml",
+        "UGA_CEID-auto_AVG_LB": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_CEID-auto_AVG_LB.yml",
         "NIH-Flu_ARIMA": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NIH-Flu_ARIMA.yaml",
         "Metaculus-cp": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Metaculus-cp.yaml",
         "JHUAPL-Morris": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/JHUAPL-Morris.yaml",
