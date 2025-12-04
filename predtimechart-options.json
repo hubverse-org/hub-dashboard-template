@@ -517,16 +517,20 @@
             "2025-05-24",
             "2025-05-31",
             "2025-11-22",
-            "2025-11-29"
+            "2025-11-29",
+            "2025-12-06"
         ],
         "wk inc flu prop ed visits": [
             "2025-11-22",
-            "2025-11-29"
+            "2025-11-29",
+            "2025-12-06"
         ]
     },
-    "initial_as_of": "2025-11-29",
-    "current_date": "2025-11-29",
+    "initial_as_of": "2025-12-06",
+    "current_date": "2025-12-06",
     "models": [
+        "UMass-flusion",
+        "UMass-trends_ensemble",
         "CADPH-FluCAT_Ensemble",
         "CEPH-Rtrend_fluH",
         "CFA_Pyrenew-Pyrenew_HE_Flu",
@@ -580,8 +584,6 @@
         "UGuelphensemble-GRYPHON",
         "UI_CompEpi-EpiGen",
         "UM-DeepOutbreak",
-        "UMass-flusion",
-        "UMass-trends_ensemble",
         "UNC_IDD-InfluPaint",
         "UVAFluX-CESGCN",
         "UVAFluX-Ensemble",
