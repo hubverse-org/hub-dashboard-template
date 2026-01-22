@@ -524,7 +524,8 @@
             "2025-12-27",
             "2026-01-03",
             "2026-01-10",
-            "2026-01-17"
+            "2026-01-17",
+            "2026-01-24"
         ],
         "wk inc flu prop ed visits": [
             "2025-11-22",
@@ -535,11 +536,12 @@
             "2025-12-27",
             "2026-01-03",
             "2026-01-10",
-            "2026-01-17"
+            "2026-01-17",
+            "2026-01-24"
         ]
     },
-    "initial_as_of": "2026-01-17",
-    "current_date": "2026-01-17",
+    "initial_as_of": "2026-01-24",
+    "current_date": "2026-01-24",
     "models": [
         "UMass-flusion",
         "UMass-trends_ensemble",
@@ -549,6 +551,7 @@
         "CMU-TimeSeries",
         "CU-ensemble",
         "Cornell_JHU-hierarchSIR",
+        "DMAPRIME-QR",
         "GT-FluFNP",
         "Gatech-ensemble_point",
         "Gatech-ensemble_prob",
@@ -664,6 +667,7 @@
         "CMU-TimeSeries": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CMU-TimeSeries.yml",
         "ISU_NiemiLab-GPE": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/ISU_NiemiLab-GPE.yml",
         "MIGHTE-Nsemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MIGHTE-Nsemble.yml",
+        "DMAPRIME-QR": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/DMAPRIME-QR.yml",
         "Stevens-ILIForecast": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Stevens-ILIForecast.yml",
         "UGA_CEID-auto_AVG_LB": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UGA_CEID-auto_AVG_LB.yml",
         "NIH-Flu_ARIMA": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NIH-Flu_ARIMA.yaml",
