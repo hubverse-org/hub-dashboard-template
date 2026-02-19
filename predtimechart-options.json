@@ -528,7 +528,8 @@
             "2026-01-24",
             "2026-01-31",
             "2026-02-07",
-            "2026-02-14"
+            "2026-02-14",
+            "2026-02-21"
         ],
         "wk inc flu prop ed visits": [
             "2025-11-22",
@@ -543,11 +544,12 @@
             "2026-01-24",
             "2026-01-31",
             "2026-02-07",
-            "2026-02-14"
+            "2026-02-14",
+            "2026-02-21"
         ]
     },
-    "initial_as_of": "2026-02-14",
-    "current_date": "2026-02-14",
+    "initial_as_of": "2026-02-21",
+    "current_date": "2026-02-21",
     "models": [
         "UMass-flusion",
         "UMass-trends_ensemble",
@@ -559,6 +561,7 @@
         "Cornell_JHU-hierarchSIR",
         "DMAPRIME-DLM",
         "DMAPRIME-QR",
+        "Epistorm-Ensemble_Flu",
         "GT-FluFNP",
         "Gatech-ensemble_point",
         "Gatech-ensemble_prob",
@@ -677,6 +680,7 @@
         "LosAlamos-DoSiDo": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/LosAlamos-DoSiDo.yml",
         "Gatech-ensemble_point": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Gatech-ensemble_point.yml",
         "CFA_Pyrenew-Pyrenew_HE_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/CFA_Pyrenew-Pyrenew_HE_Flu.yml",
+        "Epistorm-Ensemble_Flu": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Epistorm-Ensemble_Flu.yml",
         "UI_CompEpi-EpiGen": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/UI_CompEpi-EpiGen.yml",
         "JHUAPL-DMD": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/JHUAPL-DMD.yaml",
         "Metaculus-cp": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Metaculus-cp.yaml",
