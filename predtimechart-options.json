@@ -531,7 +531,8 @@
             "2026-02-14",
             "2026-02-21",
             "2026-02-28",
-            "2026-03-07"
+            "2026-03-07",
+            "2026-03-14"
         ],
         "wk inc flu prop ed visits": [
             "2025-11-22",
@@ -549,11 +550,12 @@
             "2026-02-14",
             "2026-02-21",
             "2026-02-28",
-            "2026-03-07"
+            "2026-03-07",
+            "2026-03-14"
         ]
     },
-    "initial_as_of": "2026-03-07",
-    "current_date": "2026-03-07",
+    "initial_as_of": "2026-03-14",
+    "current_date": "2026-03-14",
     "models": [
         "UMass-flusion",
         "UMass-trends_ensemble",
@@ -588,6 +590,7 @@
         "MOBS-GLEAM_FLUH",
         "MOBS-GLEAM_RL_FLUH",
         "Metaculus-cp",
+        "MetroCast-ensemble",
         "NAU-FourCAT",
         "NAU-epymorph",
         "NAU-vulPES",
@@ -654,6 +657,7 @@
         "cfa-flumech": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/cfa-flumech.yml",
         "GT-FluFNP": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/GT-FluFNP.yml",
         "SigSci-BECAM": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/SigSci-BECAM.yml",
+        "MetroCast-ensemble": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/MetroCast-ensemble.yml",
         "NAU-FourCAT": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/NAU-FourCAT.yml",
         "Gatech-ensemble_prob": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Gatech-ensemble_prob.yml",
         "Cornell_JHU-hierarchSIR": "https://github.com/cdcepi/FluSight-forecast-hub/blob/main/model-metadata/Cornell_JHU-hierarchSIR.yml",
