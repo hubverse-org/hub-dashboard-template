@@ -1,6 +1,6 @@
 ---
-hub: "cdcepi/FluSight-forecast-hub/"
-title: "Example Hub Dashboard Website"
+hub: "hubverse-org/dashboard-test-hub/"
+title: "Dashboard Test Hub"
 pages:
   - "about.md"
   - "data.qmd"
