@@ -1,0 +1,4 @@
+"model_id","log_score","rps","n"
+"Flusight-baseline",Inf,0.724200734256227,848
+"MOBS-GLEAM_FLUH",Inf,0.453049065571477,720
+"PSI-DICE",Inf,0.488968986024268,848
