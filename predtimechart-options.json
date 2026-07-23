@@ -481,9 +481,9 @@
         "MOBS-GLEAM_FLUH"
     ],
     "model_urls": {
-        "Flusight-baseline": "https://github.com/hubverse-org/example-complex-forecast-hub/blob/main/model-metadata/Flusight-baseline.yml",
+        "PSI-DICE": "https://github.com/hubverse-org/example-complex-forecast-hub/blob/main/model-metadata/PSI-DICE.yml",
         "MOBS-GLEAM_FLUH": "https://github.com/hubverse-org/example-complex-forecast-hub/blob/main/model-metadata/MOBS-GLEAM_FLUH.yml",
-        "PSI-DICE": "https://github.com/hubverse-org/example-complex-forecast-hub/blob/main/model-metadata/PSI-DICE.yml"
+        "Flusight-baseline": "https://github.com/hubverse-org/example-complex-forecast-hub/blob/main/model-metadata/Flusight-baseline.yml"
     },
     "disclaimer": "This is a disclaimer. It presents important information for your stakeholders.",
     "initial_xaxis_range": null
